@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+  
+<html>
+<head>
+    <title>Assignment 6 - J.Reid</title>
+    
+    <link rel="stylesheet" type="text/css" href="styles/Assignment6z.css" />
+    
+      <script type="text/javascript" src="js/Assignment6.js"></script>
+      <script type="text/javascript" src="js/Assignment6-cc.js"></script>
+      <script type="text/javascript" src="js/Assignment6-uoa.js"></script>
+      <script type="text/javascript" src="js/Assignment6-dc.js"></script>
+      
+</head>
+<body>
+   
+    <section id ="dropdown">
+       <h1>Assignment6 - J.Reid</h1>
+       <hr>
+        <hr>
+        <select onchange ="MenuChoice()" id="menu" >
+            <option>Please Select An Option</option>
+            <option>Create Customer</option>
+            <option>Update Order Address</option>
+            <option>Delete Customer</option>
+        </select>
+    </section>
+    <hr>
+    
+        <section id="showarea1" class="showarea1" >
+        <h2>Create Customer: </h2>
+            <hr>
+                <br>
+                <br>
+                    <label>Please Enter a Customer ID</label>
+                    <input type="text" id="creacust">
+                        <label class="cusfive">Customer ID should be five uppercase characters.</label>
+                        <br>
+                            <br>
+                        <label>Please Enter Customer Name</label>
+                        <input type="text" id="crusto">
+                            <br>
+                                <br>
+                            <label>Please Enter Customer City</label>
+                            <input type="text" id="creamer">
+                                <br>
+                                    <br>
+                <button onclick="CreateCustomer()" id="newcust">Add a New Customer</button>
+                <br>
+                <hr>
+                    <br>
+                        <label id="result">The operation's result will display here.</label>
+                     </section>
+        <hr>
+            <br>
+                    
+        <section id="showarea2" class="showarea2">
+            <h2>Update Order Address</h2>
+            <hr>
+                <br>
+                    <br>
+        <label>Please Enter an Order Number: </label>
+        <input type="text" id="peaon">  
+        <br>
+            <br>
+        <label>Please Enter a Shipping Name: </label>
+        <input type="text" id="peastn">
+             <br>
+                <br>
+        <label>Please Enter a Shipping Address: </label>
+        <input type="text" id="peastsa">
+             <br>
+                <br>
+        <label>Please Enter a Shipping City: </label>
+        <input type="text" id="peastc">
+            <br>
+                <br>
+        <label>Please Enter a Shipping Postal Code</label>
+        <input type="text" id="peastpc">
+            <br>
+                <br>
+    <button onclick="UpdateOrderAddress()" id="uexinfo">Update Existing Information</button>
+    <br>
+        <hr>
+            <br>
+                <label id="outcomes">The operation's result will display here.</label>
+        </section>
+        <hr>
+        <br>
+            <br>
+                
+    <section id="showarea3" class="showarea3">
+        <h2>Delete Customer: </h2>
+        <br>
+            <br>
+        <hr>
+        <label>Please Enter a Customer ID: </label>
+        <input type="text" id="peacid">
+            <br>
+            <br>
+                <button onclick="DeleteCustomer()" id="delcust">Delete Customer From List</button>
+                <br>
+                <hr>
+                    <br>
+                <label id="conclusion">The operation's result will display here.</label>
+             </section>
+    <br>
+        <br>
+            <br>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+    
+    <footer><p>J.Reid c/o jreid009@uab.edu &copy; 2015</p></footer>    
+            
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
