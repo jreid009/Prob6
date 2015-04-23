@@ -1,7 +1,7 @@
     function CreateCustomer()
     {
         var createCustomer = new XMLHttpRequest();
-        var url = "http://bus-pluto.ad.uab.edu/jsonwebservice/service1.svc/createCustomer";
+        var url = "HTTP://BUS-PLUTO.AD.UAB.EDU/JSONWEBSERVICE/SERVICE1.SVC/CREATECUSTOMER";
         
         //Collect Customer data from web page.
         var customerid = document.getElementById("creacust").value;
